@@ -9,7 +9,7 @@ const config = {
     postcss: true
 	}),
 	kit: {
-		adapter: adapter()
+		adapter: adapter({ out: 'build'})
 	},
 	vitePlugin: {
 		inspector: true,
